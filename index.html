@@ -6,6 +6,43 @@
   <title>Prova Form 2</title>
 </head>
 <body>
+  <form action="">
+    <table>
+
+      <!--Inserimento nome e cognome-->
+      <tr>
+        <td><label for=""><strong>Nome e Cognome:</strong></label></td>
+        <td><input type="text" placeholder="Inserisci il tuo nome e cognome" maxlength="50" name="" id="" required></td>
+      </tr>
+
+      <!--Inserimento data di nascita-->
+      <tr>
+        <td><label for=""><strong>Data di nascita:</strong></label></td>
+        <td><input type="date" placeholder="Inserisci data di nascita" name="" id="" required></td>
+      </tr>
+
+      <!--Inserimento CAP-->
+      <tr>
+        <td><label for=""><strong>CAP:</strong></label></td>
+        <td><input type="text" name="cap" size="5" maxlength="5" pattern="(0|1||2|3|4|5|6|7|8|9)(0|1||)" required></td>
+      </tr>
+
+      <tr>
+        <td><label for=""><strong>Foto:</strong></label></td>
+        <td><input type="file"  maxlength="5" name="" id="" required></td>
+      </tr>
+
+    </table>
+    
+    <input type="checkbox" name="" id="">Sono uno studente lavoratore<br> 
+
+    <textarea name="" id="" cols="30" rows="3" maxlength="80" placeholder="Descrizione del lavoro svolto (max 80 caratteri)"></textarea><br>
+
+    <input type="submit" value="Invio">
+    <input type="reset" value="Reimposta">
+
+
+  </form>
   
 </body>
 </html>
